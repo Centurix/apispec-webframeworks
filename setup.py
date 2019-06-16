@@ -9,6 +9,7 @@ EXTRAS_REQUIRE = {
         'Flask==1.0.3',
         'tornado==5.1.1',
         'bottle==0.12.16',
+        'cherrypy',
     ],
     'lint': [
         'flake8==3.7.7',
@@ -59,6 +60,7 @@ setup(
         'tornado',
         'bottle',
         'frameworks',
+        'cherrypy',
     ),
     classifiers=[
         'Development Status :: 4 - Beta',
